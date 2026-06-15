@@ -5,6 +5,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:shimmer/shimmer.dart';
 import '../../models/anime_model.dart';
 import '../../models/episode_model.dart';
+import '../../models/user_model.dart';
 import '../../providers/anime_provider.dart';
 import '../../providers/episode_provider.dart';
 import '../../providers/user_provider.dart';

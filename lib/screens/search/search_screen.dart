@@ -70,7 +70,7 @@ class SearchScreen extends ConsumerWidget {
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  Icon(Icons.movie_off_outlined, color: AppColors.textSecondary, size: 56),
+                  Icon(Icons.movie_filter_outlined, color: AppColors.textSecondary, size: 56),
                   SizedBox(height: 12),
                   Text(
                     'No results found',

@@ -55,7 +55,7 @@ class HomeScreen extends ConsumerWidget {
               const SizedBox(height: 8),
               _buildLiveUploadsButton(context),
               const SizedBox(height: 8),
-              _buildAllAnimeSection(context, animeListAsync),
+              _buildAllAnimeSection(context, ref, animeListAsync),
               const SizedBox(height: 80),
             ],
           ),

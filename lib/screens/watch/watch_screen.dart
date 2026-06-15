@@ -253,7 +253,7 @@ class _WatchScreenState extends ConsumerState<WatchScreen> {
               return ServerButton(
                 label: 'Server ${i + 1}',
                 isSelected: watchState.selectedServerIndex == i,
-                onTap: _isWebViewLoading ? null : () => _switchServer(i),
+                onTap: _isWebViewLoading ? () {} : () => _switchServer(i),
               );
             }),
           ),

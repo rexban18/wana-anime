@@ -176,7 +176,7 @@ class _PremiumScreenState extends ConsumerState<PremiumScreen> {
             ),
             const SizedBox(height: 12),
             _buildPlanCard(
-              icon: Icons.infinity,
+              icon: Icons.auto_awesome,
               title: 'Pro',
               duration: 'Lifetime premium access',
               features: ['All episodes unlocked', 'HD Streaming', 'Ad-free', 'Early access'],

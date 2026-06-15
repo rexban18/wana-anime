@@ -4,7 +4,7 @@ import '../utils/constants.dart';
 class ServerButton extends StatelessWidget {
   final String label;
   final bool isSelected;
-  final VoidCallback onTap;
+  final VoidCallback? onTap;
 
   const ServerButton({
     super.key,
