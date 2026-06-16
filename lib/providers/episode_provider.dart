@@ -1,7 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../models/episode_model.dart';
 import '../services/rtdb_service.dart';
-import 'user_provider.dart';
 
 final rtdbServiceProvider = Provider<RtdbService>((ref) {
   return RtdbService();

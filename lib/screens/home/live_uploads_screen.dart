@@ -5,7 +5,6 @@ import 'package:timeago/timeago.dart' as timeago;
 import '../../models/anime_model.dart';
 import '../../providers/anime_provider.dart';
 import '../../utils/constants.dart';
-import '../../widgets/anime_card.dart';
 import '../../widgets/error_display.dart';
 
 class LiveUploadsScreen extends ConsumerWidget {
