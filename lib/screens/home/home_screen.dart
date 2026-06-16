@@ -169,7 +169,7 @@ class HomeScreen extends ConsumerWidget {
     );
   }
 
-  Widget _buildAllAnimeSection(BuildContext context, AsyncValue<List<AnimeModel>> animeList) {
+  Widget _buildAllAnimeSection(BuildContext context, WidgetRef ref, AsyncValue<List<AnimeModel>> animeList) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
